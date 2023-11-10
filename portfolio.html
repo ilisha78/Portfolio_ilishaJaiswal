@@ -12,15 +12,16 @@
     <nav>
         <label for="text" class="left" id="port"> Portfolio</label>
         <div class="right" id="links">
-            <a href="#home" class="link">Home</a>
-            <a href="#about" class="link">About</a>
-            <a href="#skills" class="link">Skills</a>
-            <a href="#service" class="link">Service</a>
-            <a href="#contact" class="link">Contact</a>
-            <button type="button" class="hire">Hire me</button>
+            <a href="#home" class="link" onclick="scrollToSection('home')">Home</a>
+            <a href="#about" class="link" onclick="scrollToSection('about')">About</a>
+            <a href="#service" class="link" onclick="scrollToSection('service')">Service</a>
+            <a href="#skills" class="link" onclick="scrollToSection('skills')">Skills</a>
+            <a href="#project" class="link" onclick="scrollToSection('project')">Projects</a>
+            <a href="#contact" class="link" onclick="scrollToSection('contact')">Contact</a>
+            <button type="button" class="hire" onclick="scrollToSection('contact')">Hire me</button>
         </div>
     </nav>
-    <section>
+    <section id="home">
         <div class="left">
             <span><h2 class="cmt">Hello, I am</h2></span>
             <p><h1>Ilisha Jaiswal</h1></p>
@@ -41,7 +42,7 @@
 
             </div>
             <div class="btn">
-                <button class="hire">About Me</button>
+                <button class="hire"  onclick="scrollToSection('about')">About Me 	&#8681; </button>
                 <button class="info">Download Info</button>
             </div>
         </div>
@@ -53,7 +54,7 @@
     <label for="about" class="labels"> <span><h2 class="leaf">About</h2></span></label>
 
 
-    <section >
+    <section id="about">
 
         <div class="left">
             <img src="/ilisha.jpeg" alt="random image" class="pht">
@@ -96,7 +97,7 @@
 
     <label for="Service" class="labels"> <span><h2 class="leaf">Services </h2></span></label>
 
-    <section>
+    <section id="service">
 
 
         <div class="left">
@@ -121,7 +122,7 @@
 
     <label for="skills" class="labels"><h2>Skills</h2></label>
 
-<section>
+<section id="skills">
 <!-- 
         <div>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCBjN1_2fzSBJY8t-Plky4GeTMWEndLr6HBw&usqp=CAU" alt="This is an img">
@@ -151,7 +152,7 @@
     <label for="project" class="labels"><h2>Projects</h2></label>
 
 
-<section>
+<section id="project">
 
     <p class="projt-txt">"I'm currently pursuing a B.Com degree, but my true passion lies in coding and web development. My academic background may be in a different field, but I've chosen to actively pursue web development because I'm a dedicated learner with a genuine enthusiasm for all things related to computers and coding. This drive and commitment to expanding my skills in this area has led me to the point where I'm confident that I can excel in the field of web development, and I'm excited about the opportunity to apply my knowledge and skills to real-world projects."
         <br><br>
@@ -184,7 +185,7 @@
 
     <label for="Contact" class="labels"><h2>Contact</h2></label>
     
-    <section>
+    <section id="contact">
 
 <div class="con-box">
 
@@ -213,7 +214,6 @@
     </footer> -->
 
     <footer  class="footer">
-   
 
 
         <span  class="footer-span">
@@ -226,33 +226,33 @@
                     Connect with me over socials. <br/> <br/> 
                     Keep Rising 🚀. Connect with me over live chat!</p>
             </div>
-      
+    
             <div class="foot-box Quick">
                 <h2>Quick links</h2>
 
-                <a href="#home" class="fa fa-chevron-circle-right link-none"  rel="noopener noreferrer"> Home</a>
-                <a href="#about" class="fa fa-chevron-circle-right link-none"  rel="noopener noreferrer"> About</a>
-                <a href="#skills" class="fa fa-chevron-circle-right link-none"  rel="noopener noreferrer"> Skills</a>
-                <a href="#services" class="fa fa-chevron-circle-right link-none"  rel="noopener noreferrer"> Services</a>
-                <a href="#projects" class="fa fa-chevron-circle-right link-none"  rel="noopener noreferrer"> Projects</a>
-                <a href="#contact" class="fa fa-chevron-circle-right link-none"  rel="noopener noreferrer"> Contact</a>
+                <a href="#home" class="fa fa-chevron-circle-right link-none"  rel="noopener noreferrer" onclick="scrollToSection('home')"> Home</a>
+                <a href="#about" class="fa fa-chevron-circle-right link-none"  rel="noopener noreferrer" onclick="scrollToSection('about')"> About</a>
+                <a href="#skills" class="fa fa-chevron-circle-right link-none"  rel="noopener noreferrer" onclick="scrollToSection('skills')"> Skills</a>
+                <a href="#services" class="fa fa-chevron-circle-right link-none"  rel="noopener noreferrer" onclick="scrollToSection('service')"> Services</a>
+                <a href="#projects" class="fa fa-chevron-circle-right link-none"  rel="noopener noreferrer" onclick="scrollToSection('project')"> Projects</a>
+                <a href="#contact" class="fa fa-chevron-circle-right link-none"  rel="noopener noreferrer" onclick="scrollToSection('contact')"> Contact</a>
             </div>
-      
+    
             <div class="foot-box">
                 <h2>Contact info</h2>
                 <p> <i class="fa fa-phone"></i>+91 XXX-XXX-XXXX</p>
                 <p> <i class="fa fa-envelope"></i>jaiswalilisha@gmail.com</p>
                 <p> <i class="fa fa-map-marker"></i> Barhaj, Deoria (U.P.) India-274601</p>
             <div class="share">
-      
-                    <a href="https://" class="fa fa-linkedin link-none" aria-label="LinkedIn" target="_blank"></a>
-                    <a href="https://github.com/" class="fa fa-github link-none" aria-label="GitHub" target="_blank"></a>
-                    <a href="mailto:jaiswalilisha@gmail.com" class="fa fa-envelope link-none" aria-label="Mail" target="_blank"></a>
-                    <a href="https://twitter.com/" class="fa fa-twitter link-none" aria-label="Twitter" target="_blank"></a>
-                    <a href="https://" class="fa fa-telegram link-none" aria-label="Telegram" target="_blank"></a>
-                    <a href="https:/" class="fa fa-facebook link-none" aria-label="facebook" target="_blank"></a>
-                    <a href="https://" class="fa fa-codepen link-none" aria-label="codepen" target="_blank"></a>
-                    <a href="https://" class="fa fa-instagram link-none" aria-label="instagram" target="_blank"></a>
+    
+                    <a href="https://" class="fa fa-linkedin link-none" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://github.com/" class="fa fa-github link-none" aria-label="GitHub" target="_blank" rel="noopener noreferrer"></a>
+                    <a href="mailto:jaiswalilisha@gmail.com" class="fa fa-envelope link-none" aria-label="Mail" target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://twitter.com/" class="fa fa-twitter link-none" aria-label="Twitter" target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://" class="fa fa-telegram link-none" aria-label="Telegram" target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https:/" class="fa fa-facebook link-none" aria-label="facebook" target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://" class="fa fa-codepen link-none" aria-label="codepen" target="_blank" rel="noopener noreferrer"></a>
+                    <a href="https://" class="fa fa-instagram link-none" aria-label="instagram" target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
             <br>
@@ -303,6 +303,12 @@
     observer.observe(sectionToAnimate);
 });
 
+function scrollToSection(home) {
+            const section = document.getElementById(home);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
 
 
     </script>

@@ -27,12 +27,12 @@ text-align: center;
     font-weight: 900;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-right: 50%;
+    margin-right: 45%;
 }
 #links{
     margin: 0px;
     margin-top: -4px;
-    padding: 8px;
+    padding: 4px;
     text-align:center;
 }
 .link{
@@ -191,19 +191,22 @@ i:hover{
     position: relative;
     animation: mymove 2s 1;
     animation-timing-function: ease-in;
-
 }
 @keyframes mymove {
     from {left: -400px;}
     to {left: 100px;}
   }
-
+.image-service img:hover{
+    width: 140px;
+    height: 140px;
+}
 h1{
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-style: italic;
 }
+
 .info{
     font-size: larger;
     font-family: cursive;
@@ -250,12 +253,14 @@ h1{
     float: left;
     border-radius: 20%;  
 }
+.prjt:hover{
+    width: 175px;
+    padding: 6px 18px;
+}
 .project-img{
-    
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: 1;
-
 }
 
 @keyframes slidein {
